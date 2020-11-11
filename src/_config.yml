@@ -1,4 +1,4 @@
-title: Micro Blog
+title: Small tales
 source: .
 destination: ../build
 author:
@@ -14,6 +14,8 @@ paginate: 5
 paginate_path: "/p/:num"
 plugins:
   - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
