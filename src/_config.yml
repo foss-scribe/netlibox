@@ -6,7 +6,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /posts/:title/:short_year/:month/:day
 theme: tale
 markdown: kramdown
-paginate: 50
+paginate: 5
 paginate_path: "/p/:num"
 plugins:
   - jekyll-paginate
