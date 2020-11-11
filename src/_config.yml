@@ -1,9 +1,9 @@
-title: slog
+title: Micro Blog
 source: .
 destination: ../build
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /posts/:title-:short_year:month:day
+permalink: /posts/:title/:short_year/:month/:day
 theme: tale
 markdown: kramdown
 paginate: 50
