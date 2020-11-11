@@ -1,6 +1,10 @@
 title: Micro Blog
 source: .
 destination: ../build
+author:
+  name: Chris Rosser
+  url: https://chrisrosser.net
+  email: chris@chrisrosser.net
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink:  /:year-:month-:day/:title
