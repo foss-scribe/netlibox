@@ -10,6 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink:  /:year-:month-:day/:title
 theme: tale
 markdown: kramdown
+include:
+  - _pages
 paginate: 5
 paginate_path: "/p/:num"
 plugins:
